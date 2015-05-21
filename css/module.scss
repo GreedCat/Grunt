@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*rest   start*/
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font-size: 12px;
+	font-family: "微软雅黑"
+}
+
+ul,li {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-size: 100%
+}
+
+img {
+	border: 0;
+	border: 0;
+	vertical-align: middle
+}
+
+a {
+	outline: 0;
+	color: #45494f;
+	text-decoration: none;
+	text-decoration: none
+}
+
+p {
+	margin: 0;
+	padding: 0
+}
+
+input,select,textarea {
+	vertical-align: middle;
+	*font-size: 100%
+}
+
+input {
+	margin: 0;
+	padding: 0;
+	outline: 0
+}
+
+input::-ms-clear {
+	display: none
+}
+
+.clear {
+	clear: both
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+	content: "."
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+.dp_none{
+	display: none;
+}
+
+.dp_block{
+	display: block;
+}
+
+
+$base-color:#000;
+body{
+	background-color: $base-color;
+}
